@@ -19,6 +19,11 @@ function isPlalindrom(parola) {
         console.log(parola)
     }
     
+    if(parola == reversedWord){
+        return true;
+    }else{
+        return false;
+    }
 }
 
 
